@@ -12,13 +12,13 @@ Tendremos 3 páginas: portada, contacto, y carta de productos.
 
 ####Contenido del proyecto
 En este proyecto tendremos un contenido referente a un FrontEnd con:
-  + Portada.html
-  + Contanto.html
-  + Carta.html
+  + ![](https://github.com/gonzalouli/PruebaTecnicaMaquetacion/blob/main/img/htmlicon.png)Portada.html
+  + ![](https://github.com/gonzalouli/PruebaTecnicaMaquetacion/blob/main/img/htmlicon.png)Contanto.html
+  + ![](https://github.com/gonzalouli/PruebaTecnicaMaquetacion/blob/main/img/htmlicon.png)Carta.html
   + CSS/
-      +Portada.css
-      +Contacto.css
-      +Carta.css
+      +![](https://github.com/gonzalouli/PruebaTecnicaMaquetacion/blob/main/img/cssicon.png)Portada.css
+      +![](https://github.com/gonzalouli/PruebaTecnicaMaquetacion/blob/main/img/cssicon.png)Contacto.css
+      +![](https://github.com/gonzalouli/PruebaTecnicaMaquetacion/blob/main/img/cssicon.png)Carta.css
   +img/
 
 En cada uno de los archivos descritos anteriormente estaran los contenidos de cada una de las tres pñaginas del proyecto
