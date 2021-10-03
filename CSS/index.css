@@ -1,0 +1,61 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url("../img/693688.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+}
+
+.description{
+    font-size:50px;
+    margin-top: 100px;
+}
+
+.navbar{
+    margin-top: 0%;
+}
+
+
+.navbar-brand, .navbar{
+    font-size: 40px ;
+    font-stretch: wider;
+    font-family: 'Lucida Sans';
+}
+
+.navbar-brand{
+    font-size: 50px !important;
+}
+
+.proberbio{
+    padding-top: 10%;
+}
+
+.important{
+    background-color: white;
+    opacity:0.6;
+    font-size: 100px;
+    border:solid 4px black;
+    display:inline-block;
+}
+.important, #traduccion{
+    background-color: white;
+    font-size: bold;
+    opacity:0.6;
+    font-size: 100px;
+    border-radius: 4mm;
+    display:inline-block;
+}
+
+#trad{
+    background-color: white;
+    opacity:0.6;
+    border-radius: 2mm;    
+    display:inline-block;
+}
+
+#traduccion{
+    margin-top:  20px;
+    font-size: 50px !important;
+}
+
