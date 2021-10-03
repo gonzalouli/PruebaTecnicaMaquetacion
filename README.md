@@ -13,11 +13,11 @@ Tendremos 3 páginas: portada, contacto, y carta de productos.
 ####Contenido del proyecto
 En este proyecto tendremos un contenido referente a un FrontEnd con:
 + ![](https://github.com/gonzalouli/PruebaTecnicaMaquetacion/blob/main/img/favicon-16x16.png)PruebaTecnicaMaquetacion
-  + ![](https://github.com/gonzalouli/PruebaTecnicaMaquetacion/blob/main/img/htmlicon.png)Portada.html
+  + ![](https://github.com/gonzalouli/PruebaTecnicaMaquetacion/blob/main/img/htmlicon.png)index.html
   + ![](https://github.com/gonzalouli/PruebaTecnicaMaquetacion/blob/main/img/htmlicon.png)Contanto.html
   + ![](https://github.com/gonzalouli/PruebaTecnicaMaquetacion/blob/main/img/htmlicon.png)Carta.html
   + ![](https://github.com/gonzalouli/PruebaTecnicaMaquetacion/blob/main/img/favicon-16x16.png)CSS/
-    + ![](https://github.com/gonzalouli/PruebaTecnicaMaquetacion/blob/main/img/cssicon.png)Portada.css
+    + ![](https://github.com/gonzalouli/PruebaTecnicaMaquetacion/blob/main/img/cssicon.png)index.css
     + ![](https://github.com/gonzalouli/PruebaTecnicaMaquetacion/blob/main/img/cssicon.png)Contacto.css
     + ![](https://github.com/gonzalouli/PruebaTecnicaMaquetacion/blob/main/img/cssicon.png)Carta.css
   + ![](https://github.com/gonzalouli/PruebaTecnicaMaquetacion/blob/main/img/favicon-16x16.png)img/
