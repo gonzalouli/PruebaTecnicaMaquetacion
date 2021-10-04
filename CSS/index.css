@@ -13,11 +13,6 @@ body{
     }
 }
 
-#navbarToggler{
-    position: absolute;
-    left: 50%;
-}
-
 
 .navbar-brand, .navbar{
     font-size: 300% ;
