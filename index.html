@@ -9,29 +9,28 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/index.css" type="text/css">
     <link rel="shortcut icon" href="#">
-
+    <link rel="shortcut icon" href="./img/logo/favicon.png" type="image/png">
 </head>
 <body>
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div>
-        <span class="type">GastroBar Japones:</span>
-        <a class="navbar-brand" target="_self" rel="noopener noreferrer" href="./index.html">RamenInn</a>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div id="cabecera">
+      <img class="image" src="/img/cabecera.png"></img>
+      <a class="navbar-brand" target="_self" rel="noopener noreferrer" href="./index.html">RamenInn</a>
+    </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarToggler">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0 mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" target="_self" rel="noopener noreferrer" href="./Carta.html">Carta</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" target="_self" rel="noopener noreferrer" href="./Contacto.html">Contacto</a>
+          </li>
+        </ul>
       </div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0 mx-auto">
-            <li class="nav-item">
-              <a class="nav-link" target="_self" rel="noopener noreferrer" href="./Carta.html">Carta</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" target="_self" rel="noopener noreferrer" href="./Contacto.html">Contacto</a>
-            </li>
-          </ul>
-        </div>
-      </nav>    
+    </nav>    
       
 
       <div class="text-center">
@@ -63,8 +62,25 @@
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </body>
-<footer>
-
+<footer class="page-footer font-small blue pt-4">  
+  
+  <div class="container-fluid" id="personal">
+    <div class="rowp-3">
+      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+        <div class="card">
+          <div class="card-body mx-auto">
+            <h5 class="card-title">Developed by:</h5>
+            <p class="card-text">Gonzalo Ulibarri Garcia</p>
+            <a href="https://www.linkedin.com/in/gonzalo-ulibarri-garc%C3%ADa-5538b31a4"  target="_blank" rel="noopener noreferrer" ><img id="linkedin" src="./img/linkedin.png"></a>
+            <a href="https://github.com/gonzalouli/PruebaTecnicaMaquetacion"  target="_blank" rel="noopener noreferrer" ><img id="linkedin" src="./img/github.png"></a>
+          </div>
+        </div>      
+      </div>
+    </div>
+    <br>
+ 
+  </div>
+   
 </footer>
 
 </html>
