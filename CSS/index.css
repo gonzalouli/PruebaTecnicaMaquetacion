@@ -11,16 +11,6 @@ body{
     margin-right: 15%;
 }
 
-.responsiveGrid{
-    align-items: center;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: (5fr,1fr,3fr,3fr);
-    margin-top: 5%;
-    text-align: center
-}
-
-
 
 .navbar-brand, .navbar{
     font-size: 40px ;
@@ -42,7 +32,7 @@ body{
 .traduccion{
     background-color: rgba(255,255,255,0.6);
     font-weight: bold;
-    font-size: 3vh;
+    font-size: 4vh;
     width: 100vh;
     border-radius: 4mm;
     display:inline-block;
@@ -58,16 +48,13 @@ body{
 #traduccion{
     margin-top:  20px;
     font-size: 50px !important;
-    align-items: center;
-    justify-content: center;
+
 }
 
 .desc{
     background-color: rgba(255,255,255,0.6);
     width:50%;
     border-radius: 2mm;
-    align-items: center;
-    justify-content: center;
     font-weight: bold;
 }
 
@@ -106,6 +93,5 @@ body{
 
 .page-footer{
     position: absolute;
-    bottom: 0;
     width: 100%;
 }
