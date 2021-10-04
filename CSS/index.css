@@ -13,13 +13,13 @@ body{
 
 
 .navbar-brand, .navbar{
-    font-size: 40px ;
+    font-size: 300% ;
     font-stretch: wider;
     font-family: 'Lucida Sans';
 }
 
 .navbar-brand{
-    font-size: 50px !important;
+    font-size: 100% !important;
 }
 
 
@@ -32,7 +32,7 @@ body{
 .traduccion{
     background-color: rgba(255,255,255,0.6);
     font-weight: bold;
-    font-size: 4vh;
+    font-size: 300%;
     width: 100vh;
     border-radius: 4mm;
     display:inline-block;
@@ -45,11 +45,6 @@ body{
     font-weight: bold;
 }
 
-#traduccion{
-    margin-top:  20px;
-    font-size: 50px !important;
-
-}
 
 .desc{
     background-color: rgba(255,255,255,0.6);
@@ -58,9 +53,8 @@ body{
     font-weight: bold;
 }
 
-
-.type{
-    font-size: 25px !important;
+.descripcion{
+    font-size: 120% ;
 }
 
 .nav-item:hover{
