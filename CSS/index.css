@@ -7,8 +7,15 @@ body{
     height: 100vh;
 }
 
+@media(max-width: 360px){
+    body{
+        background-image: url("../img/movilformat.jpg");
+    }
+}
+
 #navbarToggler{
-    margin-right: 15%;
+    position: absolute;
+    left: 50%;
 }
 
 
