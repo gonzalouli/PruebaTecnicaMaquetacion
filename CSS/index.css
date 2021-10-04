@@ -7,7 +7,7 @@ body{
     height: 100vh;
 }
 
-@media(max-width: 360px){
+@media(max-width: 800px){
     body{
         background-image: url("../img/movilformat.jpg");
         font-size: 80%;
