@@ -31,25 +31,21 @@ body{
     padding-top: 10%;
 }
 
-.important{
-    background-color: white;
-    opacity:0.6;
-    font-size: 100px;
-    border:solid 4px black;
-    display:inline-block;
+.japan{
+    font-size: 700%;
+    font-weight: bold;
 }
-.important, #traduccion{
-    background-color: white;
+
+#traduccion{
+    background-color: rgba(255,255,255,0.6);
     font-size: bold;
-    opacity:0.6;
-    font-size: 100px;
+    font-size: 200%;
     border-radius: 4mm;
     display:inline-block;
 }
 
 #trad{
-    background-color: white;
-    opacity:0.6;
+    background-color: rgba(255,255,255,0.6);
     border-radius: 2mm;    
     display:inline-block;
 }
@@ -59,3 +55,18 @@ body{
     font-size: 50px !important;
 }
 
+.desc{
+    background-color: rgba(255,255,255,0.6);
+    width:50%;
+    border-radius: 4mm;
+}
+
+.type{
+    font-size: 25px !important;
+}
+
+.nav-item:hover{
+    font-weight: bold;
+    background-color: rgba(255, 197, 91, 0.6);
+    border-radius: 3mm;
+}
