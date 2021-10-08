@@ -33,57 +33,57 @@
     </nav>    
 
     <div class="formulario" id="formhead">
-      <h4 class="titulo-form">
+      <h1 class="titulo-form">
         Formulario de contacto
-      </h4>
+      </h1>
       <div class="texto-contacto">
         <span>Para reservar, rellena el formulario de contacto y esperamos tu visita. Nosotros te llamaremos si existe algun inconveniente.<br> Gracias.</span>
       </div>
     </div>
 
     <div class="formulario" id="idform">
-      <form action="#" method="post" href="./Contacto.html">
+      <form id="form">
         <div class="data nombre">
           <label id="name-text">Nombre:</label>
-          <input type="text" id="name-imput" name="nombre" placeholder="Nombre" required>
+          <input type="text" id="name-imput" name="nombre" placeholder="Nombre" >
         </div>
         <div class="data apellidos">
           <label id="apellidos-text">Apellidos:</label>
-          <input type="text" id="apellidos-imput" name="apellidos" placeholder="Apellidos" required>
+          <input type="text" id="apellidos-imput" name="apellidos" placeholder="Apellidos" >
         </div>
         <div class="data email">
           <label id="email-text">Email:</label>
-          <input type="email" id="email-imput" name="email" placeholder="Email" required>
+          <input type="text" id="email-imput" name="email" placeholder="Email" >
         </div>
         <div class="data date">
           <label id="date-text">Fecha:</label>
-          <input type="date" id="date-imput" name="date" placeholder="Fecha" required >
+          <input type="date" id="date-imput" name="date" placeholder="Fecha"  >
         </div>
-        <div class="grid data hour">
-          <label class="maniana" id="hour-text-maniana">Mañana:</label>
-          <div class="drid maniana">
-            <label id="hour-text">13:00</label>
-            <input id="hour" type="radio" name="hora" value="13:00" required>
-            <label id="hour-text">13:30</label>
-            <input id="hour" type="radio" name="hora" value="13:30" >
-            <label id="hour-text">14:00</label>
-            <input id="hour" type="radio" name="hora" value="14:00" >
-            <label id="hour-text">14:30</label>
-            <input id="hour" type="radio" name="hora" value="114:30" >
-            <label id="hour-text">15:00</label>
-            <input id="hour" type="radio" name="hora" value="15:00" >
-            <label id="hour-text">15:30</label>
-            <input id="hour" type="radio" name="hora" value="15:30">
-          </div>
-          <br><br>
-          <label class="tarde" id="hour-text-tarde">Tarde:</label>
-          <div class="drid tarde">
+          <label id="hour-text-maniana">Mañana:</label>
+            <div class="drid maniana">
+              <label id="hour-text">12:30</label>
+              <input id="hour" type="radio" name="hora" value="12:30" >
+              <label id="hour-text">13:00</label>
+              <input id="hour" type="radio" name="hora" value="13:00" >
+              <label id="hour-text">13:30</label>
+              <input id="hour" type="radio" name="hora" value="13:30" >
+              <label id="hour-text">14:00</label>
+              <input id="hour" type="radio" name="hora" value="14:00" >
+              <label id="hour-text">14:30</label>
+              <input id="hour" type="radio" name="hora" value="14:30" >
+              <label id="hour-text">15:00</label>
+              <input id="hour" type="radio" name="hora" value="15:00" >
+              <label id="hour-text">15:30</label>
+              <input id="hour" type="radio" name="hora" value="15:30">   
+            </div>
+          <label id="hour-text-tarde">Tarde:</label>
+          <div class="drid tarde" id="grid-tarde">
             <label id="hour-text">20:30</label>
             <input id="hour" type="radio" name="hora" value="20:30">
             <label id="hour-text">21:00</label>
             <input id="hour" type="radio" name="hora" value="21:00">
             <label id="hour-text">21:30</label>
-            <input id="hour" type="radio" name="hora" value="21:30<">
+            <input id="hour" type="radio" name="hora" value="21:30">
             <label id="hour-text">22:00</label>
             <input id="hour" type="radio" name="hora" value="22:00">
             <label id="hour-text">22:30</label>
@@ -93,10 +93,9 @@
             <label id="hour-text">23:30</label>
             <input id="hour" type="radio" name="hora" value="23:30">
           </div>
-        </div>
         <label class="obs" id="text-obv">Observaciones</label><br>
-        <input type="textarea" id="obvs" rows="10" cols="40">
-
+        <textarea type="textarea" name="observacion" id="obvs" rows="3" cols="30"
+              placeholder="Escribe aqui tu comentario..." maxlength="500" autocomplete="on"></textarea>
         <div class="boton">
           <input id="enviar" class="btn btn-primary" type="submit" value="Enviar">
         </div>
@@ -121,7 +120,7 @@
 
 
 
-    "></script>
+    </script>
 </body>
 <footer class="page-footer font-small blue pt-4">  
   
