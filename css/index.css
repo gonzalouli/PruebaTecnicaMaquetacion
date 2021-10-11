@@ -12,8 +12,15 @@ body{
         background-image: url("../img/movilformat.jpg");
         font-size: 80%;
     }
+    
+    .image{
+        width: 25%;
+    }
 }
 
+#name-portada{
+    font-weight: bolder !important;
+}
 
 
 .navbar-brand, .navbar{
