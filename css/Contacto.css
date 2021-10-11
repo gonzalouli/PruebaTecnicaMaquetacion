@@ -1,7 +1,7 @@
 
-@media(min-width: 800px){
+@media(max-width: 800px){
     .formulario{
-        width: 40% !important;
+        width: 100% !important;
     }
 
 }
