@@ -23,6 +23,7 @@ body{
 
 
 .navbar-brand, .navbar{
+    background-color: white;
     font-size: 300% ;
     font-stretch: wider;
     font-family: 'Lucida Sans';
