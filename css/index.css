@@ -1,13 +1,14 @@
 body{
     font-family: 'Courier New', Courier, monospace;
-    background-image: url("../img/693688.jpg");
+    background-image: url("../img/fondo.jpeg");
     background-size: cover;
     background-repeat: repeat;
+    background-size: contain;
     margin: 0;
     height: 100vh;
 }
 
-@media(max-width: 800px){
+@media(max-width: 830px){
     body{
         background-image: url("../img/movilformat.jpg");
         font-size: 80%;
