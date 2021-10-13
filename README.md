@@ -1,8 +1,8 @@
 # PruebaTecnicaMaquetación 1
 ### Índice de proyecto
-+Descripción del proyecto
-+Contenido del proyecto
-+Tecnologías
++ Descripción del proyecto
++ Contenido del proyecto
++ Tecnologías
 
 #### Descripción del proyecto
 Prueba técnica de maquetacion para el curso React FullStack Developer
