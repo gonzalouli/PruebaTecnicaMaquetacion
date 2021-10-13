@@ -4,13 +4,13 @@
 +Contenido del proyecto
 +Tecnologías
 
-####Descripción del proyecto
+#### Descripción del proyecto
 Prueba técnica de maquetacion para el curso React FullStack Developer
 
 En esta prueba técnica, realizaremos la maquetación de un sitio web de restauración, en este caso particular constara de un restaurante Japonés.
 Tendremos 3 páginas: portada, contacto, y carta de productos.
 
-####Contenido del proyecto
+#### Contenido del proyecto
 En este proyecto tendremos un contenido referente a un FrontEnd con:
 + ![](https://github.com/gonzalouli/PruebaTecnicaMaquetacion/blob/main/img/favicon-16x16.png)PruebaTecnicaMaquetacion
   + ![](https://github.com/gonzalouli/PruebaTecnicaMaquetacion/blob/main/img/htmlicon.png)index.html (Pagina principal del proyecto)
