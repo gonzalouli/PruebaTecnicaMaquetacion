@@ -68,14 +68,14 @@ class UI{
             card.innerHTML =
             `
                 <div class="card-body mx-auto">
-                    <img class="card-img-top" src="../img/platos/${producto.img}" alt="Card image cap">
+                    <img class="card-img-top producto" alt="${producto.id}" draggable="true" src="../img/platos/${producto.img}" ondragstart="drag(event)">
                     <h5 class="card-title">${producto.nombre}</h5>
                     <lu>
                         <li class="card-text" id="productos">${producto.descripcion}</li>
                         <li class="card-text" id="contenido">${producto.contenido}</li>
                         <li class="card-text" id="contenido">Precio: ${producto.precio} €</li>
                     </lu>
-                    <button class="btn btn-primary mt-3" id="agregar" value=${producto.id}>Agregar al carrito</button>
+                    <button class="btn btn-primary mt-3" id="agregar" value="${producto.id}"> Agregar al carrito</button>
                 </div>
                 
             `
@@ -85,6 +85,10 @@ class UI{
         
         form.appendChild(grid)
     }
+
+    
+
+
 }
 
 
@@ -101,5 +105,19 @@ document.addEventListener("DOMContentLoaded", ()=>
     } )
 
 
-    
 })
+
+function allowDrop(ev) {
+    ev.preventDefault();
+}
+
+function drop(ev){
+    ev.preventDefault();
+    const data = ev.dataTransfer.getData("text");
+    ev.target.appendChild(document.getElementById(data));
+}
+
+function drag(ev){
+    console.log("draggando")
+    ev.dataTransfer.setData("text", ev.target.id);
+}
